@@ -42,6 +42,9 @@
     <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
     <string name="pref_location_key" translatable="false">location</string>
 
+    <!-- Key name in SharedPreferences for location state option -->
+    <string name="pref_location_state_key" translatable="false">location_state</string>
+
     <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
     <string name="pref_location_default" translatable="false">94043</string>
 
@@ -72,7 +75,6 @@
 
     <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
     <string name="pref_units_imperial" translatable="false">imperial</string>
-
 
     <!-- Language-specific constants -->
     <string name="today">Today</string>
